@@ -8,15 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0FF01942155065BD1D98CBF1622628C9 /* Pods-AURCherryBlossomView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B39116DD12300183FD704B08A38DCA /* Pods-AURCherryBlossomView_Tests-dummy.m */; };
+		1AE94E8DD93B6FBC4CEB9FF4B05BE19D /* AURCherryBlossomView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CA5D6B65707C2423D1A6CA34F2813B /* AURCherryBlossomView-dummy.m */; };
 		3D2F2C40C8D7A0D11694CD22B5BC8573 /* AURCherryBlossomView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1099B68DF496D2393E696D953B7C6377 /* AURCherryBlossomView.bundle */; };
 		584717E17EB230738F700CF6AA88DC2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		607C727D5B184A89573D08955E9B48F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6BEE03768A1640CDC2B75770CD6080A1 /* cherryblossoms.png in Resources */ = {isa = PBXBuildFile; fileRef = 16CD9B2D79D269F5B87A79989F74214E /* cherryblossoms.png */; };
 		797FBE9FD755DE151EC9306AB59C9BE8 /* Pods-AURCherryBlossomView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9916E581686D305C8064AE3096E5BF0 /* Pods-AURCherryBlossomView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BDAF0D6009A955172B7F54E5F0F1CB5 /* AURCherryBlossomView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD198A6C99F311F9F8ECDEADFA309DD3 /* AURCherryBlossomView-dummy.m */; };
+		7F6A0D4B401156AAA1D126A1D317C718 /* plum.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EAEB74A2366E549C33833041944181A /* plum.png */; };
 		8E932D06A0C9A10F47902D94CF324442 /* Pods-AURCherryBlossomView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C7421E05FFF32A370316448EB9C5F9 /* Pods-AURCherryBlossomView_Example-dummy.m */; };
-		8F531FB34FD4B3E9D0082C4AC6E1B7BB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBDE0BA267FDDE7175A8BF99DFFD996 /* ReplaceMe.swift */; };
+		94940BC4C8CC4E0F148A459FBF439636 /* AURCherryBlossomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F56B9EC3F91D1E13CA0ACB071D882D /* AURCherryBlossomView.swift */; };
 		996C4F2D840CEDB73F81EAA4A2F3B230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		E414E3995C7E252F0BADFAE971C64248 /* AURCherryBlossomView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BBE815E2C1168329CD60F5824CC315 /* AURCherryBlossomView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC096552A58370425EA1181299F306D3 /* dandelion.png in Resources */ = {isa = PBXBuildFile; fileRef = 33FFB2015286DE50AB67A2987DC95D6B /* dandelion.png */; };
+		E414E3995C7E252F0BADFAE971C64248 /* AURCherryBlossomView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF14358824812AC87E897BA385A33CD /* AURCherryBlossomView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E84B9526488AE2BB3B3646D68ABC27DC /* Pods-AURCherryBlossomView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0795895E52F7BE7F672CF13CCFDEAB1E /* Pods-AURCherryBlossomView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -51,33 +54,36 @@
 		0795895E52F7BE7F672CF13CCFDEAB1E /* Pods-AURCherryBlossomView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AURCherryBlossomView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0E48C9F4FE2BDFBECD7FD75CC33E6A3A /* Pods-AURCherryBlossomView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AURCherryBlossomView_Example.modulemap"; sourceTree = "<group>"; };
 		1099B68DF496D2393E696D953B7C6377 /* AURCherryBlossomView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AURCherryBlossomView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CA5D6B65707C2423D1A6CA34F2813B /* AURCherryBlossomView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AURCherryBlossomView-dummy.m"; sourceTree = "<group>"; };
 		15B743DEA88E31799191F26311973C94 /* Pods-AURCherryBlossomView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AURCherryBlossomView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		16CD9B2D79D269F5B87A79989F74214E /* cherryblossoms.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = cherryblossoms.png; sourceTree = "<group>"; };
 		216A39B37198B33510C9A199517112A5 /* Pods-AURCherryBlossomView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AURCherryBlossomView_Tests-resources.sh"; sourceTree = "<group>"; };
+		2618CE2C8237934D0049C774F8555A20 /* AURCherryBlossomView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AURCherryBlossomView.modulemap; sourceTree = "<group>"; };
 		2A8E943036FEE07CA4ED1D0B820DE750 /* Pods-AURCherryBlossomView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AURCherryBlossomView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		370DD77132E593DA79CDF7AD75E7FCA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F56B9EC3F91D1E13CA0ACB071D882D /* AURCherryBlossomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AURCherryBlossomView.swift; sourceTree = "<group>"; };
+		32B3DDE5C0F9041ABF7A7FBEA5E42166 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33FFB2015286DE50AB67A2987DC95D6B /* dandelion.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dandelion.png; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3F8A8454BFB2154653F1CEE3FAE80799 /* Pods-AURCherryBlossomView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AURCherryBlossomView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		4137B4E074698828AD715405915A7A24 /* Pods-AURCherryBlossomView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AURCherryBlossomView_Example-resources.sh"; sourceTree = "<group>"; };
 		46C8621D9032C97BDEC21E250E50EC34 /* AURCherryBlossomView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AURCherryBlossomView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56AD424759140E2526F2484A957FCFA4 /* AURCherryBlossomView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AURCherryBlossomView.xcconfig; sourceTree = "<group>"; };
-		72BBE815E2C1168329CD60F5824CC315 /* AURCherryBlossomView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AURCherryBlossomView-umbrella.h"; sourceTree = "<group>"; };
-		8BBDE0BA267FDDE7175A8BF99DFFD996 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		5EAEB74A2366E549C33833041944181A /* plum.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = plum.png; sourceTree = "<group>"; };
 		91C7421E05FFF32A370316448EB9C5F9 /* Pods-AURCherryBlossomView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AURCherryBlossomView_Example-dummy.m"; sourceTree = "<group>"; };
 		99F53BE52F10856D6DA8284B6AEDD33A /* Pods-AURCherryBlossomView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AURCherryBlossomView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A7BD0E67B56400B6290E1C47C9CE95C2 /* AURCherryBlossomView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AURCherryBlossomView-prefix.pch"; sourceTree = "<group>"; };
+		9FF14358824812AC87E897BA385A33CD /* AURCherryBlossomView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AURCherryBlossomView-umbrella.h"; sourceTree = "<group>"; };
 		AC9CFE23F357C702519273CB6D789BD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8EB3D2AA714A238963E7B5936007347 /* Pods-AURCherryBlossomView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AURCherryBlossomView_Tests.modulemap"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C77CB9710DB7B0D03A9A58DE528C1208 /* Pods-AURCherryBlossomView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AURCherryBlossomView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CCEBDC07E65C3D8075ACA1645CBC54DF /* AURCherryBlossomView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AURCherryBlossomView.xcconfig; sourceTree = "<group>"; };
+		CD8D3E2C638A95F2E9AFDB3B3E109CA5 /* AURCherryBlossomView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AURCherryBlossomView-prefix.pch"; sourceTree = "<group>"; };
 		D6E134D185A35584434B4A95020AFA3E /* Pods-AURCherryBlossomView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AURCherryBlossomView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D7B39116DD12300183FD704B08A38DCA /* Pods-AURCherryBlossomView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AURCherryBlossomView_Tests-dummy.m"; sourceTree = "<group>"; };
 		E2A209F46A78EF75698F87D95E1DE220 /* Pods-AURCherryBlossomView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AURCherryBlossomView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E494752336382FE12E2C43926BA1679F /* AURCherryBlossomView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AURCherryBlossomView.modulemap; sourceTree = "<group>"; };
 		E719D3A880BA3F51C9CD458BE3C75A15 /* Pods-AURCherryBlossomView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AURCherryBlossomView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E9916E581686D305C8064AE3096E5BF0 /* Pods-AURCherryBlossomView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AURCherryBlossomView_Example-umbrella.h"; sourceTree = "<group>"; };
 		FB220DE9C91411402B72141445035B2A /* Pods-AURCherryBlossomView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AURCherryBlossomView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FC2E6DB59DE1195CA37E88A040777F1F /* Pods-AURCherryBlossomView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AURCherryBlossomView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FD198A6C99F311F9F8ECDEADFA309DD3 /* AURCherryBlossomView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AURCherryBlossomView-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		065D1B36302420809F9819FACABBBDA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2618CE2C8237934D0049C774F8555A20 /* AURCherryBlossomView.modulemap */,
+				CCEBDC07E65C3D8075ACA1645CBC54DF /* AURCherryBlossomView.xcconfig */,
+				13CA5D6B65707C2423D1A6CA34F2813B /* AURCherryBlossomView-dummy.m */,
+				CD8D3E2C638A95F2E9AFDB3B3E109CA5 /* AURCherryBlossomView-prefix.pch */,
+				9FF14358824812AC87E897BA385A33CD /* AURCherryBlossomView-umbrella.h */,
+				32B3DDE5C0F9041ABF7A7FBEA5E42166 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AURCherryBlossomView";
+			sourceTree = "<group>";
+		};
+		1417C7ECB20AE6324C780D17C4FAF11F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7273831FBA46012BCC0FB62E33A02C91 /* AURCherryBlossomView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		1E154617EFC927207221F243945E9F84 /* Pods-AURCherryBlossomView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,31 +161,52 @@
 			path = "Target Support Files/Pods-AURCherryBlossomView_Example";
 			sourceTree = "<group>";
 		};
-		5E8D961E14917486B1C25C84A8A616CA /* Pod */ = {
+		2B46A9370DD2F21DB0507AE6AD5533CC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CC0FF570077913E61AFC9A16C1D000D0 /* Classes */,
+				30F56B9EC3F91D1E13CA0ACB071D882D /* AURCherryBlossomView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5CB140AF0B5F293B0612EEFF90E248F1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5DB3F7D939F62EFD5D85835ED664987C /* Assets */,
 			);
 			path = Pod;
+			sourceTree = "<group>";
+		};
+		5DB3F7D939F62EFD5D85835ED664987C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				16CD9B2D79D269F5B87A79989F74214E /* cherryblossoms.png */,
+				33FFB2015286DE50AB67A2987DC95D6B /* dandelion.png */,
+				5EAEB74A2366E549C33833041944181A /* plum.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7273831FBA46012BCC0FB62E33A02C91 /* AURCherryBlossomView */ = {
+			isa = PBXGroup;
+			children = (
+				E60DFC2EBB6F00DD1B3E5490F94CDF0E /* Pod */,
+				EAC2C915DF4D697CEEAC1BA11A9DE9C7 /* Resources */,
+				065D1B36302420809F9819FACABBBDA9 /* Support Files */,
+			);
+			name = AURCherryBlossomView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				916E73D2273BF6CCF507D9DBA27D254B /* Development Pods */,
+				1417C7ECB20AE6324C780D17C4FAF11F /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				B9EE64A3FC7FC4A06B85B08C50D5D626 /* Products */,
 				9AA6EE688D6222262F882A7B9EBABB9E /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		916E73D2273BF6CCF507D9DBA27D254B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C49BA596FA39CDBF3A09E92EF4EF7892 /* AURCherryBlossomView */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9AA6EE688D6222262F882A7B9EBABB9E /* Targets Support Files */ = {
@@ -167,20 +216,6 @@
 				E16390D37AD4F5A5B47A50B5E2BBC328 /* Pods-AURCherryBlossomView_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9CE894B15FCB860F308BEFE40A2C06E6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E494752336382FE12E2C43926BA1679F /* AURCherryBlossomView.modulemap */,
-				56AD424759140E2526F2484A957FCFA4 /* AURCherryBlossomView.xcconfig */,
-				FD198A6C99F311F9F8ECDEADFA309DD3 /* AURCherryBlossomView-dummy.m */,
-				A7BD0E67B56400B6290E1C47C9CE95C2 /* AURCherryBlossomView-prefix.pch */,
-				72BBE815E2C1168329CD60F5824CC315 /* AURCherryBlossomView-umbrella.h */,
-				370DD77132E593DA79CDF7AD75E7FCA1 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AURCherryBlossomView";
 			sourceTree = "<group>";
 		};
 		B9EE64A3FC7FC4A06B85B08C50D5D626 /* Products */ = {
@@ -210,24 +245,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C49BA596FA39CDBF3A09E92EF4EF7892 /* AURCherryBlossomView */ = {
-			isa = PBXGroup;
-			children = (
-				5E8D961E14917486B1C25C84A8A616CA /* Pod */,
-				9CE894B15FCB860F308BEFE40A2C06E6 /* Support Files */,
-			);
-			name = AURCherryBlossomView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		CC0FF570077913E61AFC9A16C1D000D0 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8BBDE0BA267FDDE7175A8BF99DFFD996 /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		E16390D37AD4F5A5B47A50B5E2BBC328 /* Pods-AURCherryBlossomView_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +261,22 @@
 			);
 			name = "Pods-AURCherryBlossomView_Tests";
 			path = "Target Support Files/Pods-AURCherryBlossomView_Tests";
+			sourceTree = "<group>";
+		};
+		E60DFC2EBB6F00DD1B3E5490F94CDF0E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2B46A9370DD2F21DB0507AE6AD5533CC /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		EAC2C915DF4D697CEEAC1BA11A9DE9C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5CB140AF0B5F293B0612EEFF90E248F1 /* Pod */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +333,7 @@
 			buildPhases = (
 				D82C4F543AB989681B0BECC5749EF4B7 /* Sources */,
 				FFAD48212A16B2EA86B2F2D04F806DDB /* Frameworks */,
-				35246F0CFC4BBCA9CA6AC06DFA6C8154 /* Resources */,
+				9FB410F6BDC602AC5DD70AABB6BFAE55 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -333,7 +366,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8356F66BE899B1080FC3E686FB15EE3 /* Build configuration list for PBXNativeTarget "AURCherryBlossomView" */;
 			buildPhases = (
-				9CB101F296CAC9965E76DFF62BD42C0F /* Sources */,
+				38F14392496C7D816504847CF9E78DC1 /* Sources */,
 				2AD4FF1B606FB99152DAC518D2D7BEE5 /* Frameworks */,
 				3E8A4FBAEED50A645AF305CBAF92D193 /* Resources */,
 				5768EA34F60FCFD5C84345CBB4A7C368 /* Headers */,
@@ -378,18 +411,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		35246F0CFC4BBCA9CA6AC06DFA6C8154 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3E8A4FBAEED50A645AF305CBAF92D193 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3D2F2C40C8D7A0D11694CD22B5BC8573 /* AURCherryBlossomView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB410F6BDC602AC5DD70AABB6BFAE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEE03768A1640CDC2B75770CD6080A1 /* cherryblossoms.png in Resources */,
+				CC096552A58370425EA1181299F306D3 /* dandelion.png in Resources */,
+				7F6A0D4B401156AAA1D126A1D317C718 /* plum.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,20 +440,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		38F14392496C7D816504847CF9E78DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE94E8DD93B6FBC4CEB9FF4B05BE19D /* AURCherryBlossomView-dummy.m in Sources */,
+				94940BC4C8CC4E0F148A459FBF439636 /* AURCherryBlossomView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85F537BEDE704384BABF846B520A192E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0FF01942155065BD1D98CBF1622628C9 /* Pods-AURCherryBlossomView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9CB101F296CAC9965E76DFF62BD42C0F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8BDAF0D6009A955172B7F54E5F0F1CB5 /* AURCherryBlossomView-dummy.m in Sources */,
-				8F531FB34FD4B3E9D0082C4AC6E1B7BB /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,7 +554,7 @@
 		};
 		15F8218AC826E058337338F23F4A9C29 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56AD424759140E2526F2484A957FCFA4 /* AURCherryBlossomView.xcconfig */;
+			baseConfigurationReference = CCEBDC07E65C3D8075ACA1645CBC54DF /* AURCherryBlossomView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -616,7 +652,7 @@
 		};
 		7E024B6D8E2CF8604A789D23A740D8C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56AD424759140E2526F2484A957FCFA4 /* AURCherryBlossomView.xcconfig */;
+			baseConfigurationReference = CCEBDC07E65C3D8075ACA1645CBC54DF /* AURCherryBlossomView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = AURCherryBlossomView;
@@ -659,7 +695,7 @@
 		};
 		DCA7FAA92BFE8AD9A6E5BD247438DCFC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56AD424759140E2526F2484A957FCFA4 /* AURCherryBlossomView.xcconfig */;
+			baseConfigurationReference = CCEBDC07E65C3D8075ACA1645CBC54DF /* AURCherryBlossomView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -686,7 +722,7 @@
 		};
 		E0784CB947D30C3C871D83AD15BBEB39 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56AD424759140E2526F2484A957FCFA4 /* AURCherryBlossomView.xcconfig */;
+			baseConfigurationReference = CCEBDC07E65C3D8075ACA1645CBC54DF /* AURCherryBlossomView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = AURCherryBlossomView;

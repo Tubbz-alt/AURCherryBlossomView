@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E78092CBB4A5CA5FCABD4E25'
+               BlueprintIdentifier = 'FDAC9E45B037ACCDC8ADA721'
                BlueprintName = 'AURCherryBlossomView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'AURCherryBlossomView.framework'>

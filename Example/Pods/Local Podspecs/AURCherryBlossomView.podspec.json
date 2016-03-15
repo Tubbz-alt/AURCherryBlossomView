@@ -1,15 +1,15 @@
 {
   "name": "AURCherryBlossomView",
   "version": "0.1.0",
-  "summary": "A short description of AURCherryBlossomView.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/AURCherryBlossomView",
+  "summary": "Cherry Blossom Night Fever!!",
+  "description": "Shower of Cherry Blossom View",
+  "homepage": "https://github.com/aminaura/AURCherryBlossomView",
   "license": "MIT",
   "authors": {
     "aminaura": "aura.otsuka@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/AURCherryBlossomView.git",
+    "git": "https://github.com/aminaura/AURCherryBlossomView.git",
     "tag": "0.1.0"
   },
   "platforms": {

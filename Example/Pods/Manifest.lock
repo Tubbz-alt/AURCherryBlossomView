@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AURCherryBlossomView: f7bc66a757c4a343a10e7b5e88627bbac9823ee9
+  AURCherryBlossomView: 3dd3d8d4dbf1a47eb83837920c6acd505e2d2f2d
 
 COCOAPODS: 0.39.0
