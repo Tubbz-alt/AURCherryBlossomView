@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AURCherryBlossomView
 
 class ViewController: UIViewController {
     

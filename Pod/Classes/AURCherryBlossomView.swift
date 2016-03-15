@@ -71,7 +71,15 @@ public class AURCherryBlossomView: UIView {
             fileName = "dandelion"
         }
         
-        return UIImage(named: "\(fileName).png")
+        let path = NSBundle(forClass: AURCherryBlossomView.self).pathForResource("AURCherryBlossomView", ofType: "bundle")
+        let bundle = NSBundle(path: path!)
+        let imagePath = bundle?.pathForResource(fileName, ofType: "png")
+        let url = NSURL(fileURLWithPath: imagePath!)
+        let data = NSData(contentsOfURL: url)
+        if let data = data {
+            return UIImage(data: data)!
+        }
+        return nil
     }
     
     func generateBlossom() -> CAEmitterCell {
@@ -96,4 +104,3 @@ public class AURCherryBlossomView: UIView {
         return self.active
     }
 }
-
