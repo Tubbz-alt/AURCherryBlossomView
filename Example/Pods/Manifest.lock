@@ -1,0 +1,14 @@
+PODS:
+  - AURCherryBlossomView (0.1.0)
+
+DEPENDENCIES:
+  - AURCherryBlossomView (from `../`)
+
+EXTERNAL SOURCES:
+  AURCherryBlossomView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AURCherryBlossomView: f7bc66a757c4a343a10e7b5e88627bbac9823ee9
+
+COCOAPODS: 0.39.0

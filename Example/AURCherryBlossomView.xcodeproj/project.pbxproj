@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E1199211C981D9500E4615A /* cherryblossoms.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E11991F1C981D9500E4615A /* cherryblossoms.png */; };
+		2E1199221C981D9500E4615A /* dandelion.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E1199201C981D9500E4615A /* dandelion.png */; };
+		2E1199241C981D9B00E4615A /* plum.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E1199231C981D9B00E4615A /* plum.png */; };
+		2E1199261C981DBF00E4615A /* AURCherryBlossomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1199251C981DBF00E4615A /* AURCherryBlossomView.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +34,10 @@
 /* Begin PBXFileReference section */
 		00DCCA86EAE8771E7E3C0DF6 /* Pods-AURCherryBlossomView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AURCherryBlossomView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AURCherryBlossomView_Example/Pods-AURCherryBlossomView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		270C9BA43FD5465B296DCA45 /* Pods_AURCherryBlossomView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AURCherryBlossomView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E11991F1C981D9500E4615A /* cherryblossoms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cherryblossoms.png; path = Images/cherryblossoms.png; sourceTree = "<group>"; };
+		2E1199201C981D9500E4615A /* dandelion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dandelion.png; path = Images/dandelion.png; sourceTree = "<group>"; };
+		2E1199231C981D9B00E4615A /* plum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plum.png; path = Images/plum.png; sourceTree = "<group>"; };
+		2E1199251C981DBF00E4615A /* AURCherryBlossomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AURCherryBlossomView.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AURCherryBlossomView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AURCherryBlossomView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +88,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		2E11991E1C981D8800E4615A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2E1199231C981D9B00E4615A /* plum.png */,
+				2E11991F1C981D9500E4615A /* cherryblossoms.png */,
+				2E1199201C981D9500E4615A /* dandelion.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +122,10 @@
 		607FACD21AFB9204008FA782 /* Example for AURCherryBlossomView */ = {
 			isa = PBXGroup;
 			children = (
+				2E11991E1C981D8800E4615A /* Images */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				2E1199251C981DBF00E4615A /* AURCherryBlossomView.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -246,9 +266,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1199211C981D9500E4615A /* cherryblossoms.png in Resources */,
+				2E1199221C981D9500E4615A /* dandelion.png in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				2E1199241C981D9B00E4615A /* plum.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +384,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				2E1199261C981DBF00E4615A /* AURCherryBlossomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

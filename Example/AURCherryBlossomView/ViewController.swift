@@ -9,16 +9,36 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var cherryBlossomView: AURCherryBlossomView!
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Init CherryBlossomView
+        cherryBlossomView = AURCherryBlossomView(frame: self.view.bounds)
+        
+        // Set birthRate
+        cherryBlossomView.birthRate = 4.0
+        
+        // Chose type from .CherryBlossom, .Plum, .Dandelion
+        cherryBlossomView.type = .CherryBlossom
+        
+        // true
+        cherryBlossomView.userInteractionEnabled = false
+        
+        // Add subview
+        view.addSubview(cherryBlossomView)
+        
+        // Start Blossom!
+        cherryBlossomView.startBlossom()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
 }
+
+
 
