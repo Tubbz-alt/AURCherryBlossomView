@@ -5,7 +5,7 @@
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/AURCherryBlossomView.svg?style=flat)](http://cocoapods.org/pods/AURCherryBlossomView)
 
-<p align="center">
+<p align="left">
   <img src="Example/Demo.gif" alt="CherryBlossom" width="350" height="444">
 </p>
 
