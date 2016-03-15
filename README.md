@@ -1,8 +1,8 @@
 # AURCherryBlossomView
 
-[![CI Status](http://img.shields.io/travis/aminaura/AURCherryBlossomView.svg?style=flat)](https://travis-ci.org/aminaura/AURCherryBlossomView)
+[![Platform](http://img.shields.io/cocoapods/p/NTYCSVTable.svg?style=flat)](http://cocoadocs.org/docsets/NTYCSVTable)
 [![Version](https://img.shields.io/cocoapods/v/AURCherryBlossomView.svg?style=flat)](http://cocoapods.org/pods/AURCherryBlossomView)
-[![License](https://img.shields.io/cocoapods/l/AURCherryBlossomView.svg?style=flat)](http://cocoapods.org/pods/AURCherryBlossomView)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/AURCherryBlossomView.svg?style=flat)](http://cocoapods.org/pods/AURCherryBlossomView)
 
 ## Usage
