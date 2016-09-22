@@ -39,6 +39,20 @@ class ViewController: UIViewController {
         cherryBlossomView.startBlossom()
     }
     
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        cherryBlossomView.type = nextType(cherryBlossomView.type)
+    }
+    
+    private func nextType(type: AURCherryBlossomView.BlossomType) -> AURCherryBlossomView.BlossomType {
+        switch type {
+        case .CherryBlossom:
+            return AURCherryBlossomView.BlossomType.Dandelion
+        case .Dandelion:
+            return AURCherryBlossomView.BlossomType.Plum
+        case .Plum:
+            return AURCherryBlossomView.BlossomType.CherryBlossom
+        }
+    }
 }
 
 
