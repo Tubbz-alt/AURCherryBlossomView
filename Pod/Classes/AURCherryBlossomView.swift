@@ -77,7 +77,7 @@ public class AURCherryBlossomView: UIView {
         let url = NSURL(fileURLWithPath: imagePath!)
         let data = NSData(contentsOfURL: url)
         if let data = data {
-            return UIImage(data: data)!
+            return UIImage(data: data)
         }
         return nil
     }
@@ -86,7 +86,7 @@ public class AURCherryBlossomView: UIView {
         let blossom = CAEmitterCell()
         blossom.birthRate = birthRate
         blossom.lifetime = 7.0
-        blossom.scale = 1
+        blossom.scale = 0.4
         blossom.lifetimeRange = 0
         blossom.velocity = CGFloat(140.0)
         blossom.velocityRange = CGFloat(40.0)
@@ -94,7 +94,7 @@ public class AURCherryBlossomView: UIView {
         blossom.emissionRange = CGFloat(M_PI_4)
         blossom.spin = CGFloat(3)
         blossom.spinRange = CGFloat(3)
-        blossom.scaleRange = CGFloat(0.5)
+        blossom.scaleRange = CGFloat(0.2)
         blossom.scaleSpeed = CGFloat(-0.05)
         blossom.contents = imageForType(type)!.CGImage
         return blossom
