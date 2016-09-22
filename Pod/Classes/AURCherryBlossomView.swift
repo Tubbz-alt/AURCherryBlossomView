@@ -19,9 +19,21 @@ public class AURCherryBlossomView: UIView {
     
     var emitter: CAEmitterLayer!
     public var colors: [UIColor]!
-    public var type: BlossomType!
+    public var _type: BlossomType!
+    public var type: BlossomType{
+        get{
+            return _type
+        }
+        set(t){
+            _type = t
+            if(isActive()){
+                stopBlossom()
+                startBlossom()
+            }
+        }
+    }
     public var birthRate: Float!
-    private var active :Bool!
+    private var active :Bool = false
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
