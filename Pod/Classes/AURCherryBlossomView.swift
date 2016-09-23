@@ -19,9 +19,21 @@ public class AURCherryBlossomView: UIView {
     
     var emitter: CAEmitterLayer!
     public var colors: [UIColor]!
-    public var type: BlossomType!
+    public var _type: BlossomType!
+    public var type: BlossomType{
+        get{
+            return _type
+        }
+        set(t){
+            _type = t
+            if(isActive()){
+                stopBlossom()
+                startBlossom()
+            }
+        }
+    }
     public var birthRate: Float!
-    private var active :Bool!
+    private var active :Bool = false
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -77,7 +89,7 @@ public class AURCherryBlossomView: UIView {
         let url = NSURL(fileURLWithPath: imagePath!)
         let data = NSData(contentsOfURL: url)
         if let data = data {
-            return UIImage(data: data)!
+            return UIImage(data: data)
         }
         return nil
     }
@@ -86,7 +98,7 @@ public class AURCherryBlossomView: UIView {
         let blossom = CAEmitterCell()
         blossom.birthRate = birthRate
         blossom.lifetime = 7.0
-        blossom.scale = 1
+        blossom.scale = 0.4
         blossom.lifetimeRange = 0
         blossom.velocity = CGFloat(140.0)
         blossom.velocityRange = CGFloat(40.0)
@@ -94,7 +106,7 @@ public class AURCherryBlossomView: UIView {
         blossom.emissionRange = CGFloat(M_PI_4)
         blossom.spin = CGFloat(3)
         blossom.spinRange = CGFloat(3)
-        blossom.scaleRange = CGFloat(0.5)
+        blossom.scaleRange = CGFloat(0.2)
         blossom.scaleSpeed = CGFloat(-0.05)
         blossom.contents = imageForType(type)!.CGImage
         return blossom
