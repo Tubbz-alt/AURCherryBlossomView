@@ -9,18 +9,18 @@
 import UIKit
 import QuartzCore
 
-public class AURCherryBlossomView: UIView {
+open class AURCherryBlossomView: UIView {
     
     public enum BlossomType {
-        case CherryBlossom
-        case Plum
-        case Dandelion
+        case cherryBlossom
+        case plum
+        case dandelion
     }
     
     var emitter: CAEmitterLayer!
-    public var colors: [UIColor]!
-    public var _type: BlossomType!
-    public var type: BlossomType{
+    open var colors: [UIColor]!
+    open var _type: BlossomType!
+    open var type: BlossomType{
         get{
             return _type
         }
@@ -32,8 +32,8 @@ public class AURCherryBlossomView: UIView {
             }
         }
     }
-    public var birthRate: Float!
-    private var active :Bool = false
+    open var birthRate: Float!
+    fileprivate var active :Bool = false
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -46,12 +46,12 @@ public class AURCherryBlossomView: UIView {
     }
     
     func setup() {
-        type = .CherryBlossom
+        type = .cherryBlossom
         birthRate = 4.0
         active = false
     }
     
-    public func startBlossom() {
+    open func startBlossom() {
         emitter = CAEmitterLayer()
         emitter.emitterPosition = CGPoint(x: frame.size.width / 2.0, y: 0)
         emitter.emitterShape = kCAEmitterLayerLine
@@ -65,29 +65,29 @@ public class AURCherryBlossomView: UIView {
         active = true
     }
     
-    public func stopBlossom() {
+    open func stopBlossom() {
         emitter?.birthRate = 0
         active = false
     }
     
-    func imageForType(type: BlossomType) -> UIImage? {
+    func imageForType(_ type: BlossomType) -> UIImage? {
         
         var fileName: String!
         
         switch type {
-        case .Plum:
+        case .plum:
             fileName = "plum"
-        case .CherryBlossom:
+        case .cherryBlossom:
             fileName = "cherryblossoms"
-        case .Dandelion:
+        case .dandelion:
             fileName = "dandelion"
         }
         
-        let path = NSBundle(forClass: AURCherryBlossomView.self).pathForResource("AURCherryBlossomView", ofType: "bundle")
-        let bundle = NSBundle(path: path!)
-        let imagePath = bundle?.pathForResource(fileName, ofType: "png")
-        let url = NSURL(fileURLWithPath: imagePath!)
-        let data = NSData(contentsOfURL: url)
+        let path = Bundle(for: AURCherryBlossomView.self).path(forResource: "AURCherryBlossomView", ofType: "bundle")
+        let bundle = Bundle(path: path!)
+        let imagePath = bundle?.path(forResource: fileName, ofType: "png")
+        let url = URL(fileURLWithPath: imagePath!)
+        let data = try? Data(contentsOf: url)
         if let data = data {
             return UIImage(data: data)
         }
@@ -108,11 +108,11 @@ public class AURCherryBlossomView: UIView {
         blossom.spinRange = CGFloat(3)
         blossom.scaleRange = CGFloat(0.2)
         blossom.scaleSpeed = CGFloat(-0.05)
-        blossom.contents = imageForType(type)!.CGImage
+        blossom.contents = imageForType(type)!.cgImage
         return blossom
     }
     
-    public func isActive() -> Bool {
+    open func isActive() -> Bool {
         return self.active
     }
 }
