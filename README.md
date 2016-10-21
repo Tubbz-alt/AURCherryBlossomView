@@ -9,6 +9,12 @@
   <img src="Example/Demo.gif" alt="CherryBlossom" width="350" height="444">
 </p>
 
+## Requirements
+
+- iOS 9.0+
+- Xcode 8.0+
+- Swift 3.0+
+
 ## Usage
 
 ### Import
